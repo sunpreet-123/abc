@@ -1,16 +1,20 @@
-install git
+#STEPS TO ADD ANY REPOSITORY IN GITHUB AND LINK WITH CODE IN VS CODE
+
+install git #IF NOT INSTALLED
 go to GitHub, create a repo
-copy everycode you see from the GitHub to notepad
+copy everycode you see from the GitHub to notepad #not necessary
 create a project / folder
 - keep files
-- open the folder with terminal
-- git init
-- git add .
-- git commit -m "adding files"
+- open the folder of project with terminal
+- git init #USED TO TRACK THE CODE
+- git add .  #TO ADD TRACKING OR FILES
+- git commit -m "adding files"  #TO SAVE YOUR FILES OR CHECKPOINT
 
 git config user.email "new-email@example.com"
 git config user.name "MonalSingh"
 
-git branch -M main
-git remote add origin https://github.com/Monalsingh/abc.git
-git push -u origin main
+git branch -M main #TO CHECK THE BRANCH KI HUM SAHI BRANCH ME HAI AND ONLY A FIRST TIME THING NOT AGAIN AND AGAIN
+git remote add origin https://github.com/Monalsingh/abc.git  #TO LINK HERE ADD URL OF THAT REPOSITORY YOU ARE WORKING
+git push -u origin main #TO PUSH ALL IN MAIN THEN OUR CODE WILL PRESENT IN ONLINE REPOSITORY
+
+#NOTE YE GIT PUSH WALA FROM VS CODE TO ONLINE KE LIYE BUT IF WE ADD FILE ETC IN ONLINE GITHUB THEN FOR UPDATE IN THIS ORIGIN (VSCODE) WE SHOULD DO IN TERMINAL .        git pull origin main
